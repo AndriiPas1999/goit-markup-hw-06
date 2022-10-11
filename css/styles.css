@@ -725,6 +725,22 @@ footer {
    padding: 15px;
 
    outline: transparent;
+
+   font-size: 16px;
+   line-height: 1.25;
+   letter-spacing: 0.03em;
+
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-input::placeholder{
+   font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
 }
 
 .subscribe-button {
@@ -879,12 +895,12 @@ footer {
    color: rgba(117, 117, 117, 0.5);
 }
 
-::placeholder{
+::placeholder {
    font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
+   line-height: 14px;
+   letter-spacing: 0.01em;
 
-color: rgba(117, 117, 117, 0.5);
+   color: rgba(117, 117, 117, 0.5);
 }
 
 
