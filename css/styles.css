@@ -796,6 +796,12 @@ footer {
    border: 1px solid rgba(0, 0, 0, 0.1);
    border-radius: 50%;
    background-color: transparent;
+   transition: fill 250ms var(--cubic);
+}
+
+.modal-close:hover,
+.modal-close:focus {
+   fill: var(--accent-color);
 }
 
 .backdrop.is-hidden .modal {
@@ -817,9 +823,6 @@ footer {
 
 .label {
    display: block;
-   /* display: inline-block;
-   width: 448px;
-   height: 18px; */
 }
 
 .label-text {
@@ -853,7 +856,7 @@ footer {
 
 .field-icon {
    position: absolute;
-   left: 12px;
+   left: 14px;
    top: 50%;
    transform: translateY(-50%);
    transition: fill 250ms var(--cubic);
@@ -868,6 +871,20 @@ footer {
    height: 120px;
    resize: none;
    margin-bottom: 20px;
+
+   font-size: 12px;
+   line-height: 1.16;
+   letter-spacing: 0.01em;
+
+   color: rgba(117, 117, 117, 0.5);
+}
+
+::placeholder{
+   font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+
+color: rgba(117, 117, 117, 0.5);
 }
 
 
